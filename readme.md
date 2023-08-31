@@ -1,54 +1,61 @@
 <div align="center">
-  <h1>🦀 New Crate Name</h1>
+  <h1>🍎 Manzana</h1>
 
-  <i>A resume to any amateur</i>
-  <h3>A more precise description will be highlighted</h3>
+  <i>Crie aplicações tentadoras com Delphi nativo</i>
+  <h3>A forma mais pura, bela e organizada de criar aplicações Delphi</h3>
   
-  <img src="https://doc.rust-lang.org/cargo/images/Cargo-Logo-Small.png"/>
+  <img src="img/manzana.png"/>
 
 </div>
 
-[![Crates.io](https://img.shields.io/crates/v/{crate_repository})](https://crates.io/crates/validador-br)
-[![Crates.io](https://img.shields.io/crates/l/{crate_repository})](https://github.com/{username}/{crate_repository}/blob/master/LICENSE)
-[![API](https://docs.rs/{crate_repository}/badge.svg)](https://docs.rs/{crate_repository})
-[![Fórum de discussão](https://img.shields.io/github/issues/{username}/{crate_repository}?label=tarefas)](https://github.com/{username}/{crate_repository}/discussions)
-<!-- [![Build Status](https://travis-ci.com/{username}/{crate_repository}.svg?branch=master)](https://travis-ci.com/{username}/{crate_repository}) &bull; -->
+[![Fórum de discussão](https://img.shields.io/github/issues/ricardodarocha/manzana?label=tarefas)](https://github.com/ricardodarocha/manzana/discussions)
 
-[![GitHub stars](https://img.shields.io/github/stars/{username}/{crate_repository}?style=social&label=Star&maxAge=1)](https://github.com/{username}/{crate_repository}/stargazers/)
+[![GitHub stars](https://img.shields.io/github/stars/ricardodarocha/manzana?style=social&label=Star&maxAge=1)](https://github.com/ricardodarocha/manzana/stargazers/)
 [Contribua](CONTRIBUTING.md) comentando, compartilhando ou realizando um pull request!
 
 ## [0.0.1] - 2023-____
 
 - [x] Initial commit
 
-Consulte o [change log](https://github.com/{username}/{crate_repository}/blob/master/changelog.md) para mais informações.
+Consulte o [change log](https://github.com/ricardodarocha/manzana/blob/master/changelog.md) para mais informações.
 
 ## Roadmap
 
-- Some needs ❌
+- O que a galera tá precisando ❌
 
 ## Instalação
 
-Adicione a dependência ao seu `Cargo.toml`:
+Não precisa instalar nada, apenas o Delphi comunity. Este projeto é escrito apenas em features nativas do Delphi 10+, foi usada a versão Delphi Comunity para este projeto
 
-```toml
-[dependencies]
-{crate_name} = "0.0.1"
+## Uso padrão
+
+Esta biblioteca é dividida em diferentes partes
+A pasta UI contém componentes de interface do usuário que podem ser adicionados
+Frames, Gráficos, Formulários
+
+A pasta Tools contém ferramentas de geração de código, CLI, renderizadores 
+
+A pasta Start contém um template para você começar.
+A pasta Features contém várias partes que você pode ir adicionando ao seu projeto
+
+```Delphi
+
 ```
 
-## Basic usage
+## Avançado
 
-```rust
+A pasta DDD possui o Estado da Arte em termos de organização do projeto, inspirado em DDD Clean Arch, você vai encontrar features por categorias (bounded context) ou por camadas (infra, repository, banco de dados, api etc)
+
+```Delphi
 
 ```
 
-## Advanced
+## Trabalhando com bancos de dados
 
-```rust
-let cpf_string = String::from("133.976.410-55");
-if Cpf(cpf_string.as_str()).validar() {}
-```
+**Manzana** utiliza todos os recursos nativos da biblioteca Firedac, e encoraja o desenvolvedor a escrever plugins e facilitadores para usar integrados à estrutura oferecida.
+
+Por exemplo, você pode usar diferentes bancos de dados, Mock, Service Apis integrados ao DMConexao principal. Você pode usar camadas de Testes, Camadas de apresentação e trabalhar com simulação de cenários em Design time
 
 ## Licença
 
-**{crate_repository}** é um software Open Source [licenciado pelo MIT](https://github.com/{username}/{crate_repository}/blob/master/LICENSE)
+**Manzana** é uma biblioteca/framework Open Source [licenciado pelo GNU](https://github.com/ricardodarocha/manzana/blob/master/LICENSE)
