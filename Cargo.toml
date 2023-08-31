@@ -1,0 +1,16 @@
+[package]
+name = "{crate_name}"
+version = "0.0.1"
+edition = "2021"
+authors = ["Your Name <your e-mail>"]
+license = "MIT OR Apache-2.0"
+readme = "README.md"
+description = "Some description"
+documentation = "https://docs.rs/{crate_name}"
+keywords = ["validador", "validate"]
+repository = "https://github.com/ricardodarocha/{crate_repository}/"
+
+[lib]
+
+
+[dependencies]
