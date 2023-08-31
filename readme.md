@@ -2,9 +2,8 @@
   <h1>🍎 Manzana</h1>
 
   <i>Crie aplicações tentadoras com Delphi nativo</i>
-  <h3>A forma mais pura, bela e organizada de criar aplicações Delphi</h3>
   
-  <img src="img/manzana.png"/>
+![](https://github.com/ricardodarocha/manzana/blob/master/Imagens/Menu.PNG)
 
 </div>
 
